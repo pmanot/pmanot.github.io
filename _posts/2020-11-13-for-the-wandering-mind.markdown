@@ -7,19 +7,24 @@ categories: poems
 <img src="https://media.tenor.com/images/8e91d70685820888444939890b116cd6/tenor.gif" width=50>
 
 *Thoughts like dandelions in the wind  
-Carried by the waves of air  
-Aimlessly roaming the skies  
-A journey unending and unfair* 
+Swept away by waves of air  
+The mind is an open field
+Dandelions scattered everywhere*
 
 *What you thought was stuck in place  
 Is as fickle as the leaf on a tree  
-What you desperately try to hold  
+What you desperately try to hold 
 Evades your touch and slips free*  
 
-*What you thought would never change  
-Deceptively transforming incessantly  
-Replaced before you know it  
-Disenthralled, set free*  
+*Feelings you try to keep  
+Morph slowly but incessantly  
+Soon the cocoon is broken
+Emotions disenthral, set free*  
+
+Who are you then  
+If mind and body changed  
+When you look back 
+Your past feels estranged
 
 *As you try to steady yourself     
 Try to stay the same  
@@ -33,8 +38,13 @@ Hopelessly deadened to sound*
 
 *Left desolate, confused  
 Mindlessly obscure, powerless  
-Trying to hold on to life  
-But life is just a mess*  
+Chasing who you once were
+For now seems a mess*  
+
+*How easy it is to look back  
+And point to who you were   
+But not knowing what today might be  
+Makes the mind perturb*
 
 *When you look in the mirror  
 Afraid of who you might be  
@@ -66,7 +76,7 @@ Realising not how your journey warped
 You feign surprise as if you knew not  
 Of the currents that carried you off*
 
-*There is no end to the odyssey  
+*There is no end to this odyssey  
 The road unsteady and drunk  
 It is you, the insensate traveller  
 Whose feet defeated, become numb* 
