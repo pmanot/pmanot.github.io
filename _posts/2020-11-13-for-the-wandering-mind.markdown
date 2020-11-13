@@ -77,8 +77,8 @@ You feign surprise as if you knew not
 Of the currents that carried you off_
 
 _There is no end to this odyssey  
-The road unsteady and drunk_  
-**It is you, the insensate traveller  
-Whose feet defeated, become numb.**
+The road unsteady and drunk  
+It is you, the insensate traveller  
+Whose feet defeated, become numb._
 
 &nbsp; --- &nbsp; Purav &nbsp; ---
