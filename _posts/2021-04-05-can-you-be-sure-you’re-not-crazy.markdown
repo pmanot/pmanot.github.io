@@ -36,9 +36,8 @@ Now, getting back - I think understanding all of this provides a very handy metr
 
 According to these questions, you can try and judge how happy it would make **you** (_back to the same point that happiness can mean very different things to different people_) it would be for you to possibly adopt part of their philosophies or ideals, and at what cost. If the perceived happiness is significantly higher than the perceived cost, **only then** should you begin to consider changing your principles or habits / incorporating them into your existing lifestyle. And of course, at the end of the day, whatever change you choose to make must also be one that you **choose** and are **okay** with. For example, as an atheist, I don't think I'd ever choose to become religious or indulge in religious practices, even if people claim it helps them, because that simply isn't how I feel / or I don't want to ever become that. (_Happiness for me is scorning people who believe in praying to god and indulge in religious activities_)
 
-# Takeaways
-Remember that you are not always right. Try and hear people out before dismissing them. _You may very well be the crazy one_.  
-**Always** humble yourself. 
+## Takeaways
+Remember that you are not always right. Try and hear people out before dismissing them. _You may very well be the crazy one_. **Always** humble yourself. 
 
 **Know** when to change and when to stick to your principles. Accept that change is inevitable, and that over time, you are bound to change.  
 All you can try is to change for the **better**.    
