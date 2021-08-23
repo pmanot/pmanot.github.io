@@ -4,7 +4,7 @@ title:  "To Vatsal"
 categories: poems
 ---
 
-# Time
+## Time
 
 _Dear time, where did you go  
 It seems like yesterday was just a moment ago  
@@ -23,8 +23,8 @@ And see how far up I've climbed
 Carrying my loved ones close by  
 I've pulled them up quite high_  
 
-As time has passed, 22 years have gone  
-And what a beautiful journey it was.  
+_As time has passed, 22 years have gone  
+And what a beautiful journey it was._ 
 
----
-**Love you bhaiya :)**
+
+Love you bhaiya :)
