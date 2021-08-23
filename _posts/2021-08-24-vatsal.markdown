@@ -6,7 +6,7 @@ categories: poems
 
 # Time
 
-Dear time, where did you go. 
+_Dear time, where did you go  
 It seems like yesterday was just a moment ago  
 The present fleeting, I run behind  
 The everlasting past stuck in my mind  
@@ -21,10 +21,10 @@ I feel a creeping sense of sad
 But once in a while, I look behind  
 And see how far up I've climbed  
 Carrying my loved ones close by  
-I've pulled them up quite high  
+I've pulled them up quite high_  
 
 As time has passed, 22 years have gone  
 And what a beautiful journey it was.  
 
 ---
-Love you bhaiya :)
+**Love you bhaiya :)**
