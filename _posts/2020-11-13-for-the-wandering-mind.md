@@ -4,8 +4,6 @@ title:  "For The Wandering Mind"
 categories: poems
 ---
 
----<img src="https://media.tenor.com/images/8e91d70685820888444939890b116cd6/tenor.gif" width=50> ---------------------------------------------------
-
 _Thoughts like dandelions in the wind  
 Swept away by waves of air  
 The mind is an open field  
@@ -82,4 +80,4 @@ It is you, the insensate traveller
 Whose feet defeated, become numb._
 <br>
 <br>
---- &nbsp; Purav &nbsp; -------------------------------------------------
+- Purav
