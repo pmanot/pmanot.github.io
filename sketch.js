@@ -9,7 +9,7 @@ function setup(){
 
 function draw() {
     background(245)
-    translate(window.innerWidth, window.innerHeight);
+    translate(window.innerWidth/2, window.innerHeight);
     tree.show()
     tree.grow()
 }
