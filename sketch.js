@@ -1,7 +1,7 @@
 let tree;
 
 function setup(){
-    createCanvas(800, 800);
+    createCanvas(window.innerWidth, window.innerHeight);
     rectMode(CENTER);
     let point = new Point(0, 0);
     tree = new Tree(point, 100, 5)
