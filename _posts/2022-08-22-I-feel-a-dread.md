@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I feel a dread"
-categories: poems
+categories: poem
 ---
 
 _I feel a dread creeping  

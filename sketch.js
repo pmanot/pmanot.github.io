@@ -1,19 +1,22 @@
 let tree;
 
 function setup(){
-    createCanvas(window.innerWidth, window.innerHeight);
+    createCanvas(windowWidth, windowHeight);
     rectMode(CENTER);
     let point = new Point(0, 0);
-    tree = new Tree(point, 100, 5)
+    tree = new Tree(point, windowWidth/10, windowHeight/200)
 }
 
 function draw() {
-    background(245)
-    translate(window.innerWidth/2, window.innerHeight);
+    background(255)
+    translate(windowWidth/2, windowHeight);
     tree.show()
     tree.grow()
 }
 
+function windowResized() {
+   resizeCanvas(windowWidth, windowHeight)
+}
 
 class Tree {
     constructor(start, width, sliceHeight) {
@@ -28,15 +31,18 @@ class Tree {
             let trunk = new Branch(this.start, this.width, 0, this.sliceHeight)
             this.branches.push(trunk)
         }
+        
         for (let i in this.branches) {
             if (!this.branches[i].grown) {
                 this.branches[i].grow();
                 this.branch()
+                /*
                 if (this.branches.length > 2) {
                     if (random() < (0.1/this.branches.length)) {
                         this.branches[i].grown = true
                     }
                 }
+                */
             }
         }
     }
@@ -50,9 +56,9 @@ class Tree {
     branch() {
         for (let i in this.branches) {
             if (!this.branches[i].grown) {
-                if (random() < (0.1/this.branches.length)) {
+                if (random() < (0.025/this.branches.length)) {
                     let newBranchA = this.branches[i].spawnBranch(PI/8);
-                    let newBranchB = this.branches[i].spawnBranch(-PI/8);
+                    let newBranchB = this.branches[i].spawnBranch(-PI/5);
                     this.branches.push(newBranchA);
                     this.branches.push(newBranchB);
                 }
@@ -74,10 +80,15 @@ class TreeSlice {
         translate(this.pos.x, this.pos.y);
         rotate(this.angle);
         translate(-this.pos.x, -this.pos.y);
-        stroke(0, 25)
-        line(this.pos.x - this.width/2, this.pos.y - this.height/2, this.pos.x + this.width/2, this.pos.y + this.height/2)
+        fill(0, 1)
+        stroke(0, 50)
+        //line(this.pos.x - this.width/2, this.pos.y - this.height/2, this.pos.x - this.width/2, this.pos.y + this.height/2)
+        //line(this.pos.x + this.width/2, this.pos.y - this.height/2, this.pos.x + this.width/2, this.pos.y + this.height/2)
+        //line(this.pos.x - this.width/2, this.pos.y - this.height/2, this.pos.x + this.width/2, this.pos.y - this.height/2)
+        //line(this.pos.x - this.width/2, this.pos.y - this.height/2, this.pos.x + this.width/2, this.pos.y - this.height/4)
+        //line(this.pos.x - this.width/2, this.pos.y - this.height/4, this.pos.x + this.width/2, this.pos.y - this.height/2)
+        circle(this.pos.x, this.pos.y, this.width)
         pop();
-        this.wobble(0.1)
     }
 
     nextSlice() {
@@ -87,8 +98,8 @@ class TreeSlice {
 
     wobble(d) {
         this.pos.x += random(-d, d)
-        this.pos.y += random(-d*2, d)
-        this.angle += random(-d*(QUARTER_PI/25), +d*(QUARTER_PI/25))
+        this.pos.y += random(-d, d)
+        this.angle += random(-d*(QUARTER_PI/20), +d*(QUARTER_PI/20))
     }
 }
 
