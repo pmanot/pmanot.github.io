@@ -24,14 +24,14 @@ function draw() {
 }
 
 class Entropy {
-    constructor(sliceWobble = PI/16, branchWobble = PI/8){
+    constructor(sliceWobble = PI/20, branchWobble = PI/12){
         this.branchWobble = branchWobble;
         this.sliceWobble = sliceWobble;
     }
 }
 
 class Seed {
-    constructor(position, size, entropy, branchAngle = PI/8, branchProbability = 0.05, minimumBranchLength = 25){
+    constructor(position, size, entropy, branchAngle = PI/12, branchProbability = 0.08, minimumBranchLength = 25){
         this.pos = position;
         this.size = size;
         this.entropy = entropy;
