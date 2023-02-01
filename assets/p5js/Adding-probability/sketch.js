@@ -1,7 +1,6 @@
 let tree;
 
 function setup() {
-    pixelDensity(2);
     createCanvas(window.innerWidth, window.innerHeight);
     let point = new Point(window.innerWidth/2, window.innerHeight*0.95)
     let size = new Size(window.innerWidth/6, window.innerWidth/6);
