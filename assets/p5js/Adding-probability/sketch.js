@@ -208,12 +208,13 @@ class Size {
     }
 }
 
-function mousePressed() {
+function mouseClicked(event) {
     tree.branches = [tree.branches[0]]
     tree.branches[0].slices = [tree.branches[0].slices[0]]
     tree.branches[0].grown = false;
     loop()
 }
+
 
 function probability(r = 0.5) {
     return (random() < r)
