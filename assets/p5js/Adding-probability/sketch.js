@@ -1,7 +1,11 @@
 let tree;
+let button;
 
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
+    button = createButton('click me');
+    button.position(0, 0);
+    button.mousePressed(restart);
     let point = new Point(window.innerWidth/2, window.innerHeight*0.95)
     let size = new Size(window.innerWidth/6, window.innerWidth/6);
     let entropy = new Entropy()
@@ -220,7 +224,7 @@ function touchStarted() {
     loop()
 }
 
-function touchEnded() {
+function restart() {
     tree.branches = [tree.branches[0]]
     tree.branches[0].slices = [tree.branches[0].slices[0]]
     tree.branches[0].grown = false;
